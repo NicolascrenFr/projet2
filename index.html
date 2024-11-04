@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>test</title>
+    <title>Booki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,12 +29,8 @@
               <img src="images/logo/Booki.png" alt="Logo Booki" />
             </div>
             <div class="liensHeader">
-                <span class="lien1">
               <a href="">Hébergements</a>
-            </span>
-            <span class="lien2">
               <a href="">Activités</a>
-            </span>
             </div>
           </div>
         </nav>
@@ -44,36 +40,28 @@
         <p>En plein centre-ville ou en pleine nature</p>
         <form method="get" action="">
           <div class="barreDeRecherche">
-            <button class="fa-solid fa-location-dot"></button>
+            <i class="fa-solid fa-location-dot"></i>
               <label for="recherche"></label>
               <input type="text" name="recherche" id="Rechercher" placeholder="Marseille, France" size="17px">
               <button id="bouton-rechercher">Rechercher</button>
-              <button id="bouton-magnifying-glass" class="fa-solid fa-magnifying-glass"></button>              
+              <button id="bouton-magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></button>              
           </div>
           <p></p>
         </form>
         <form method="get" action="">
-          <div class="containerFiltre">
-        <div class="filtres">Filtres</div>
-        <div class="button-container1">
-          <button class="fa-solid fa-money-bill-wave"></button>
-          <button class="economique">Economique</button>
+          <div class="containerFiltre-wrapper">
+            <div class="filtres">Filtres</div>
+            <div class="containerFiltre">
+                <button id="Economique"><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
+                <button id="Familial"><i class="fa-solid fa-person"></i>Familial</button>
+                <button id="Romantique"><i class="fa-solid fa-heart"></i>Romantique</button>
+                <button id="Pepites"><i class="fa-solid fa-fire"></i>Nos pépites</button>
+            </div>
         </div>
-        <div class="button-container2">
-        <button class="fa-solid fa-person"></button>
-        <button class="familial">Familial</button>
-      </div>
-      <div class="button-container3">
-        <button class="fa-solid fa-heart"></button>
-        <button class="romantique">Romantique</button>
-      </div>
-      <div class="button-container4">
-        <button class="fa-solid fa-fire"></button>
-        <button class="pepites">Nos pépites</button>
-      </div>
-          </div>
-          <div class="fas fa-info"></div>
+        <div class="info">
+          <i class="fa-solid fa-info"></i>
           <span>Plus de 500 logements sont disponibles dans cette ville</span>
+      </div>
           <p></p>
 
           <div class="hebergements-and-populaires">
@@ -426,6 +414,7 @@
                 <li>Nous contacter</li>
               </ul>
             </div>
+          </div>
         </footer>
       </div>
     </body>
