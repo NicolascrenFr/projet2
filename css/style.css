@@ -167,20 +167,7 @@ h1 {
     font-size: larger;
 }
 
-#fa-money-bill-wave, 
-#fa-person,
-#fa-heart,
-#fa-fire 
-{  
-        background-color: white;
-        border-color: #D9D9D9;
-        border-bottom: 2px solid #D9D9D9;
-        height: 40px;
-        width: 30px;
-        border-radius: 30px 0px 0px 30px;
-        color: #0065FC;
-        align-items: center;
-}
+
 
 .containerFiltre button {
     display: flex;
@@ -195,9 +182,7 @@ h1 {
     cursor: pointer;
 }
 
-.fa-person {
-    padding-left: 15px;
-}
+
 
 .containerFiltre button:hover {
 background-color: #DEEBFF;
@@ -434,12 +419,18 @@ li {
 
     .hebergements-and-populaires {
         flex-direction: column;
+        width: 100%;
     }
 
-   
+   .populaires,
+    .hebergements, 
+    .activites {
+        width: 100%;
+    }
 
     .activites-cards {
-        grid-template-columns: repeat(4, 1fr); /* 4 colonnes */   
+        grid-template-columns: repeat(4, 1fr); /* 4 colonnes */ 
+        width: 100%;  
     }
       
     .hebergements-cards {
