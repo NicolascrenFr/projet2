@@ -90,7 +90,7 @@ a {
     text-decoration: none;
     text-align: center;
     color: inherit;
-    position: relative; nécessaire pour le placement du ::after
+    position: relative;
   }
 
   .liensHeader ul {
@@ -195,7 +195,6 @@ background-color: #DEEBFF;
 
 .info{
     margin-bottom: 1.5rem;
-    font-size: normal;
     font-weight: 100;
     display: flex;
     align-items: center;
@@ -433,7 +432,7 @@ background-color: #DEEBFF;
         display: flex;
         padding: 0;
         margin: 0;
-        width: 100%; Prend toute la largeur de l'écran
+        width: 100%;
     } 
 
     .liensHeader ul li {
@@ -509,7 +508,7 @@ background-color: #DEEBFF;
 
     .info-message {
         flex-direction: column; /* Aligne l'icône et le texte en colonne */
-        align-items: flex-start; Aligne le texte à gauche
+        align-items: flex-start;
     }
 
     /* *** Populaires *** */
@@ -525,7 +524,6 @@ background-color: #DEEBFF;
 
     .populaires-cards img {
         width: 35%;
-        height: ;
     }
 
     .populaires-cards .card {
